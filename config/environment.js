@@ -6,11 +6,14 @@ module.exports = function(environment) {
     environment,
     rootURL: '/',
     locationType: 'auto',
+
     firebase: {
-      apiKey: 'xyz',
-      authDomain: 'YOUR-FIREBASE-APP.firebaseapp.com',
-      databaseURL: 'https://YOUR-FIREBASE-APP.firebaseio.com',
-      storageBucket: 'YOUR-FIREBASE-APP.appspot.com',
+      apiKey: "AIzaSyDA8klZprsTMP97GdUxnRi9VgEXSiIJMag",
+      authDomain: "ab-library-app-ember.firebaseapp.com",
+      databaseURL: "https://ab-library-app-ember.firebaseio.com",
+      projectId: "ab-library-app-ember",
+      storageBucket: "ab-library-app-ember.appspot.com",
+      messagingSenderId: "277834357218",
     },
   
   
@@ -64,6 +67,3 @@ module.exports = function(environment) {
   
   return ENV;
 };
-
-
-
